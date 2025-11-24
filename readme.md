@@ -1,11 +1,11 @@
-# VPS Manager - Hiếu Dz
+# VPS Manager - Naturemc.asia
 
-> **Based on DuckNoVis Technology**  
-> **Domain**: hieuvn.xyz/*
+> **Based on Nature Technology**  
+> **Domain**: vps-nature.vercel.app/*
 
 ## 🚀 Giới thiệu
 
-VPS Manager là một hệ thống quản lý VPS tự động được phát triển bởi **Hiếu Dz**, dựa trên công nghệ của **DuckNoVis**. Hệ thống cho phép tạo và quản lý VPS Windows thông qua GitHub Actions một cách hoàn toàn tự động.
+VPS Manager là một hệ thống quản lý VPS tự động được phát triển bởi **Nature**, dựa trên công nghệ của **_zpre**. Hệ thống cho phép tạo và quản lý VPS Windows thông qua GitHub Actions một cách hoàn toàn tự động.
 
 ## ✨ Tính năng
 
@@ -120,20 +120,20 @@ Lưu hoặc lấy thông tin VPS user
 
 ## 🎯 Cách sử dụng
 
-1. **Truy cập website**: `https://hieuvn.xyz` hoặc domain đã cấu hình
+1. **Truy cập website**: `https://vps-nature.vercel.app` hoặc domain đã cấu hình
 2. **Nhập GitHub Token**: Token phải có đủ quyền
 3. **Nhấn "Tạo VPS"**: Hệ thống sẽ tự động:
    - Tạo repository mới trên GitHub
    - Thiết lập workflow
    - Khởi động VPS Windows
    - Trả về link truy cập
-4. **Truy cập VPS**: Mở link trong tab mới, mật khẩu: `hieudz`
+4. **Truy cập VPS**: Mở link trong tab mới, mật khẩu: `nature`
 
 ## 🔐 Bảo mật
 
 - Tất cả repository được tạo ở chế độ **private**
 - GitHub Token chỉ được sử dụng server-side
-- CORS được cấu hình chỉ cho phép domain `hieuvn.xyz`
+- CORS được cấu hình chỉ cho phép domain `vps-nature.vercel.app`
 - Mật khẩu VNC mặc định: `hieudz`
 
 ## ⚠️ Lưu ý quan trọng
@@ -180,9 +180,9 @@ Thêm các lệnh cài đặt trong phần workflow setup.
 
 ## 👨‍💻 Tác giả
 
-**Hiếu Dz**
-- Website: hieuvn.xyz
-- Based on: DuckNoVis Technology
+**HaiNguyen**
+- Website: vps-nature.vercel.app/
+- Based on: Technology
 
 ## 📄 License
 
@@ -197,4 +197,4 @@ Nếu gặp vấn đề, vui lòng:
 
 ---
 
-*Developed with ❤️ by Hiếu Dz | Based on DuckNoVis Technology*
+*Developed with ❤️ by Hiếu HaiNguyen | Based on Nature Technology*
