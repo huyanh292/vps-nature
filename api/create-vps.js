@@ -129,7 +129,7 @@ jobs:
           Invoke-WebRequest -Uri "https://www.tightvnc.com/download/2.8.63/tightvnc-2.8.63-gpl-setup-64bit.msi" -OutFile "tightvnc-setup.msi" -TimeoutSec 60
           Write-Host "✅ TightVNC downloaded"
           
-          Start-Process msiexec.exe -Wait -ArgumentList '/i tightvnc-setup.msi /quiet /norestart ADDLOCAL="Server" SERVER_REGISTER_AS_SERVICE=1 SERVER_ADD_FIREWALL_EXCEPTION=1 SET_USEVNCAUTHENTICATION=1 VALUE_OF_USEVNCAUTHENTICATION=1 SET_PASSWORD=1 VALUE_OF_PASSWORD=hieudz SET_ACCEPTHTTPCONNECTIONS=1 VALUE_OF_ACCEPTHTTPCONNECTIONS=1 SET_ALLOWLOOPBACK=1 VALUE_OF_ALLOWLOOPBACK=1'
+          Start-Process msiexec.exe -Wait -ArgumentList '/i tightvnc-setup.msi /quiet /norestart ADDLOCAL="Server" SERVER_REGISTER_AS_SERVICE=1 SERVER_ADD_FIREWALL_EXCEPTION=1 SET_USEVNCAUTHENTICATION=1 VALUE_OF_USEVNCAUTHENTICATION=1 SET_PASSWORD=1 VALUE_OF_PASSWORD=nature SET_ACCEPTHTTPCONNECTIONS=1 VALUE_OF_ACCEPTHTTPCONNECTIONS=1 SET_ALLOWLOOPBACK=1 VALUE_OF_ALLOWLOOPBACK=1'
           Write-Host "✅ TightVNC installed"
           
           Write-Host "🔧 Enabling loopback connections in TightVNC registry..."
@@ -454,7 +454,7 @@ jobs:
         }
         
         Write-Host "🚀 VPS Session Started - $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
-        Write-Host "🌌 Access noVNC via remote-link.txt URL (Password: hieudz)"
+        Write-Host "🌌 Access noVNC via remote-link.txt URL (Password: nature)"
         
         mkdir -Force ".backup"
         
@@ -635,7 +635,7 @@ export default async (req, res) => {
 ## 🖥️ VPS Information
 - **OS**: Windows Server (Latest)
 - **Access**: noVNC Web Interface via Browser
-- **Password**: hieudz
+- **Password**: nature
 - **Runtime**: ~5.5 hours with auto-restart
 ## 📋 Files
 - .github/workflows/tmate.yml: Main VPS workflow
@@ -645,7 +645,7 @@ export default async (req, res) => {
 1. The workflow runs automatically after creation
 2. Wait 5-10 minutes for setup completion
 3. Check remote-link.txt file for your VPS access URL
-4. Open the URL in browser and use password: **hieudz**
+4. Open the URL in browser and use password: **nature**
 ## ⚡ Features
 - Automatic restart on failure
 - Windows Server with GUI
@@ -680,7 +680,7 @@ export default async (req, res) => {
         client_payload: {
           vps_name: 'initial-vps',
           backup: true,
-          created_by: 'hieudz-vps-manager'
+          created_by: 'nature-vps-manager'
         }
       });
       console.log(`Workflow triggered for repository: ${repoFullName}`);
