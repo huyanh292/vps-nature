@@ -197,4 +197,4 @@ Nếu gặp vấn đề, vui lòng:
 
 ---
 
-*Developed with ❤️ by Hiếu HaiNguyen | Based on Nature Technology*
+*Developed with ❤️ by HaiNguyen | Based on Nature Technology*
