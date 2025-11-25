@@ -134,7 +134,7 @@ Lưu hoặc lấy thông tin VPS user
 - Tất cả repository được tạo ở chế độ **private**
 - GitHub Token chỉ được sử dụng server-side
 - CORS được cấu hình chỉ cho phép domain `vps-nature.vercel.app`
-- Mật khẩu VNC mặc định: `hieudz`
+- Mật khẩu VNC mặc định: `nature`
 
 ## ⚠️ Lưu ý quan trọng
 
